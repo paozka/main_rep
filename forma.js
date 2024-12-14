@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         
         const data = new FormData(form);
-        const url = 'https://your-server-url.com/form-handler'; // Замените на URL вашего обработчика форм
+        const url = 'https://paozka.github.io/main_rep/'; // Замените на URL вашего обработчика форм
 
         fetch(url, {
             method: 'POST',
