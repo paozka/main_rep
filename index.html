@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сайт портфолио</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="image" src="img/4844694.jpg" alt="">
+            <p>сайт портфолио Junior web разработчик</p>
+            <button id="menu-toggle">☰ Меню</button>
+        </div>
+        <nav id="side-menu">
+            <ul  id="scrollable">
+                <li><a href="#obo_mne">Обо мне</a></li>
+                <li><a href="#my_projects">Мои работы</a></li>
+                <li><a href="#obrazovanie">Образование</a></li>
+                <li><a href="#obrazovanie">Навыки</a></li>
+                <li><a href="#">Написать мне</a></li>
+            </ul>
+        </nav>
+        <script src="index.js"></script>
+    </header>
+    <main>
+        <div class="container_main">
+            </div>
+            <div class="obo_mne">
+                <h2 id="obo_mne">Немного про меня</h2>
+                <p>Меня зорвут Павел, мне 16 лет я умею создавать сайты используя: HTML, CSS, и немного JS. Начал заниматься програмированием еще с 14 лет, и к этому времени уже создал несколько проектов, вы можете ознакомиться с ними ниже.</p>
+            </div>
+        </div>
+        <div class="projects">
+            <div>
+            <h2 id="my_projects">Мои работы</h2>
+            <ul class="projects_ul">
+                <li><a href="https://paozka.github.io/melodiya/"><img src="img/мелодия.PNG" alt=""></a>Сайт на котором можно выбрать себе квартиру в новом жк</li>
+                <li><a href="https://paozka.github.io/my_first_site/"><img src="img/первый сайт.PNG" alt=""></a>Мой самый первый сайт</li>
+            </ul>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-button">другие работы</button>
+                <div class="dropdown-content">
+                    <a href="https://paozka.github.io/visitka/">сайт визитка</a>
+                    <a href="https://paozka.github.io/pchelki/">сайт про пчелок и мед</a>
+                    <a href="https://paozka.github.io/base_html/">что ткое HTML</a>
+                </div>
+            </div>
+        </div>
+        <div class="panorama">
+            <img src="img/панорама1.jpg" alt="">
+        </div>
+        <div  id="obrazovanie">
+            <div class="obr">
+                <h2>Моё образование</h2>
+                <p>Я закончил среднюю школу №1 Г.Копейска, и сейчас учусь на 1 курсе Международного Института Дизайна и Сервиса (МИДиС)</p> 
+            </div>
+            <div class="soft">
+                <h2>Мои софт скилы</h2>
+                <p>я довольно комуникабельный, не токсичный, могу поддержать любой  диалог, или помоч в решении какой нибудь проблемы. </p>
+            </div>
+            <div class="rel">
+                <h2>чо тя умею</h2>
+                <p>я могу сверстать для вса качестваенный сайт используя React, JS, HTML и CSS</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2> я буду рад сверстать для вас сайт</h2>
+        <form action="#" method="post">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+            
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" placeholder="Напишите сообщение..." required></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </footer>
+    <script src="forma.js"></script>
+    </footer>
+</body>
+</html>
+</html>
